@@ -1,3 +1,3 @@
-module empty
+module github.com/gogf/gf-empty
 
-require gitee.com/johng/gf latest
+require github.com/gogf/gf latest

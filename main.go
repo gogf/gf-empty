@@ -1,9 +1,9 @@
 package main
 
 import (
-	_ "empty/boot"
-	_ "empty/router"
-	"gitee.com/johng/gf/g"
+	_ "github.com/gogf/gf-empty/boot"
+	_ "github.com/gogf/gf-empty/router"
+	"github.com/gogf/gf/g"
 )
 
 func main() {

@@ -1,7 +1,7 @@
-package ctl_hello
+package hello
 
 import (
-    "gitee.com/johng/gf/g/net/ghttp"
+    "github.com/gogf/gf/g/net/ghttp"
 )
 
 // Hello World
