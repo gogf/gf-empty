@@ -10,7 +10,7 @@ LABEL maintainer="john@goframe.org"
 ENV WORKDIR /var/www/gf-empty
 
 # 添加应用可执行文件，并设置执行权限
-ADD ./main   $WORKDIR/main
+ADD ./bin/linux_amd64/main   $WORKDIR/main
 RUN chmod +x $WORKDIR/main
 
 # 添加I18N多语言文件、静态文件、配置文件、模板文件
