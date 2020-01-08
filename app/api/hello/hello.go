@@ -4,7 +4,7 @@ import (
     "github.com/gogf/gf/net/ghttp"
 )
 
-// Hello World
-func Handler(r *ghttp.Request) {
+// Hello is a demonstration route handler for output "Hello World!".
+func Hello(r *ghttp.Request) {
     r.Response.Writeln("Hello World!")
 }

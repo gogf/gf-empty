@@ -3,9 +3,12 @@ package router
 import (
     "github.com/gogf/gf-empty/app/api/hello"
     "github.com/gogf/gf/frame/g"
+	"github.com/gogf/gf/net/ghttp"
 )
 
-// 统一路由注册.
 func init() {
-    g.Server().BindHandler("/", hello.Handler)
+	s := g.Server()
+	s.Group("/", func(group *ghttp.RouterGroup) {
+		group.ALL("/", hello.Hello)
+	})
 }
