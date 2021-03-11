@@ -15,5 +15,6 @@ bin/
 cbuild
 */.DS_Store
 main
+gf-empty
 .vscode
 go.sum
