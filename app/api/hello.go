@@ -6,10 +6,9 @@ import (
 
 var Hello = helloApi{}
 
-type helloApi struct {
-}
+type helloApi struct {}
 
 // Index is a demonstration route handler for output "Hello World!".
-func (a *helloApi) Index(r *ghttp.Request) {
+func (*helloApi) Index(r *ghttp.Request) {
 	r.Response.Writeln("Hello World!")
 }

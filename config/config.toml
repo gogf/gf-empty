@@ -15,7 +15,7 @@
 [viewer]
     Path        = "template"
     DefaultFile = "index.html"
-    Delimiters  =  ["${", "}"]
+    Delimiters  =  ["{{", "}}"]
 
 # Database.
 [database]
